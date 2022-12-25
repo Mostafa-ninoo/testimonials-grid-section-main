@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sozing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(210, 46%, 95%);
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+main {
+    max-width: 1440px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main div {
+    width: 770px;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#one {
+    width: 500px;
+    height: 250px;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 5px;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-position: left 320px top 0px;
+}
+
+#one img {
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid hsl(263, 54%, 68%);
+    margin-left: 30px;
+
+}
+
+h1 {
+    position: relative;
+    left: 65px;
+    top: 25px;
+    color: hsl(0, 0%, 100%);
+    white-space: pre-line;
+    font-size: .8em;
+    font-weight: lighter;
+}
+
+h1 span {
+    color: hsl(0, 0%, 100%);
+    font-size: .8em;
+    opacity: 50%;
+}
+
+figure figcaption {
+    white-space: pre-line;
+    color: hsl(0, 0%, 100%);
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 1.4em;
+}
+
+#one p {
+    white-space: pre-line;
+    margin-left: 30px;
+    margin-top: 15px;
+    color: hsl(0, 0%, 100%);
+    opacity: 70%;
+    font-weight: lighter;
+    font-size: .9em;
+}
+
+#two {
+    width: 220px;
+    height: 250px;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 5px;
+    margin-right: 1px;
+}
+
+#two figure h2 {
+    position: relative;
+    left: 65px;
+    top: 30px;
+    color: hsl(0, 0%, 100%);
+    white-space: pre-line;
+    font-size: .8em;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+#two h2 span {
+    color: hsl(0, 0%, 100%);
+    font-size: .85em;
+    opacity: 50%;
+}
+
+#two figure img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+#two figcaption {
+    white-space: pre-line;
+    color: hsl(0, 0%, 100%);
+    margin-left: 20px;
+}
+
+#two p {
+    white-space: pre-line;
+    color: hsl(0, 0%, 100%);
+    opacity: 70%;
+    font-weight: lighter;
+    font-size: .9em;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#three {
+    width: 220px;
+    height: 250px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+}
+
+#three figure h2 {
+    position: relative;
+    left: 65px;
+    top: 30px;
+    color: hsl(219, 29%, 14%);
+    white-space: pre-line;
+    font-size: .8em;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+#three h2 span {
+    color: hsl(219, 29%, 14%);
+    font-size: .85em;
+    opacity: 50%;
+}
+
+#three figure img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+#three figcaption {
+    white-space: pre-line;
+    color: hsl(219, 29%, 14%);
+    margin-left: 20px;
+}
+
+#three p {
+    white-space: pre-line;
+    color: hsl(219, 29%, 14%);
+    opacity: 70%;
+    font-weight: lighter;
+    font-size: .9em;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#four {
+    width: 500px;
+    height: 250px;
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 5px;
+}
+
+#four img {
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid hsl(263, 54%, 68%);
+    margin-left: 30px;
+
+}
+
+#four h2 {
+    position: relative;
+    left: 65px;
+    top: 25px;
+    color: hsl(0, 0%, 100%);
+    white-space: pre-line;
+    font-size: .8em;
+    font-weight: lighter;
+}
+
+h2 span {
+    color: hsl(0, 0%, 100%);
+    font-size: .8em;
+    opacity: 50%;
+}
+
+#four figure figcaption {
+    white-space: pre-line;
+    color: hsl(0, 0%, 100%);
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 1.4em;
+}
+
+#four p {
+    white-space: pre-line;
+    margin-left: 30px;
+    margin-top: 15px;
+    color: hsl(0, 0%, 100%);
+    opacity: 70%;
+    font-weight: lighter;
+    font-size: .9em;
+}
+
+#five {
+    width: 230px;
+    height: 530px;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+#five figure h2 {
+    position: relative;
+    left: 65px;
+    top: 30px;
+    color: hsl(219, 29%, 14%);
+    white-space: pre-line;
+    font-size: .9em;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+#five h2 span {
+    color: hsl(219, 29%, 14%);
+    font-size: .9em;
+    opacity: 50%;
+}
+
+#five figure img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+#five figcaption {
+    font-size: 1.6em;
+    white-space: pre-line;
+    color: hsl(219, 29%, 14%);
+    margin-left: 20px;
+}
+
+#five p {
+    white-space: pre-line;
+    color: hsl(219, 29%, 14%);
+    opacity: 70%;
+    font-weight: lighter;
+    font-size: 1em;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width:400px) {
+    main {
+        max-width: 375px;
+        height: 1800px;
+        flex-direction: column;
+    }
+
+    main div {
+        width: 300px;
+        height: 1350px;
+        margin-top: 0px;
+    }
+
+    #one {
+        width: 300px;
+        height: 420px;
+        background-size: 90px 90px;
+        background-position: left 190px top 0px;
+        /* margin-top: 0px; */
+    }
+
+    #one figure figcaption {
+        white-space: normal;
+        font-size: 1.6em;
+    }
+
+    #one p {
+        line-height: 18px;
+    }
+
+    #two {
+        width: 300px;
+        height: 230px;
+    }
+
+
+    #two figcaption {
+        white-space: normal;
+        font-size: 1.7em;
+    }
+
+    #two p {
+        white-space: normal;
+        font-size: 1em;
+        line-height: 18px;
+    }
+
+    #three {
+        width: 300px;
+        height: 230px;
+    }
+
+    #three figcaption {
+        white-space: normal;
+        font-size: 1.7em;
+    }
+
+    #three p {
+        white-space: normal;
+        font-size: 1.1em;
+        line-height: 18px;
+    }
+
+    #four {
+        width: 300px;
+        height: 360px;
+    }
+
+    #four figure figcaption {
+        white-space: normal;
+        font-size: 1.6em;
+    }
+
+    #four p {
+        white-space: normal;
+        line-height: 18px;
+        font-size: .91em;
+    }
+
+    #five {
+        width: 300px;
+        height: 450px;
+        margin-left: 1px;
+    }
+
+    #five figure figcaption {
+        white-space: normal;
+    }
+
+    #five p {
+        white-space: normal;
+        font-size: 1.14em;
+        line-height: 18px;
+    }
+
+}
